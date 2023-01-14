@@ -7,7 +7,6 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    justify-content: center, space-between;
     align-items: center;
 
 
@@ -15,6 +14,7 @@ body {
 
 header {
     width: 100%;
+    padding: 30px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
@@ -56,4 +56,10 @@ header {
 
 #questions{
     text-align: center;
+}
+
+
+
+.hide{
+   display: none;
 }
