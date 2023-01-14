@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/styles.css">
     <title>Knowledge quiz</title>
 </head>
+
 <body>
     <header>
-        <div class= "timer">
-            <div class ="timer-text">
-            <div class=" timer-count">10</div>
-            <h3>seconds remaining</h3>
-          </div>
-
+        <div class="timer">
+            <div class="timer-text">
+                <div class=" timer-count">10</div>
+                <h3>seconds remaining</h3>
+            </div>
+        </div>
     </header>
-    
+
     <section class="container">
-          <div id=" question-card" class="hide"></div>
-            <div id="questions">Questions</div>
-            <div id="answers" class="answer-grid">Answers</div>
-                  <button class="btn">Answer1</button>
-                  <button class="btn">Answer2</button>
-                  <button class="btn">Answer3</button>
-                  <button class="btn">Answer4</button>
-             
-          <div class="controls"></div>
-          <button id="start-btn">Start</button>
-        
+        <div id=" question-card" class="hide">
+            <div id="questions">
+                <h1>Questions</h1>
+            </div>
+            <br>
+            <div id="answers" class="answer-grid">
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn">Answer3</button>
+                <button class="btn">Answer4</button>
+            </div>
+        </div>
+         <br>
+         
+        <div class="controls">
+            <button id="start-btn">Start</button>
+        </div>
+
 
     </section>
-    
+    <script src="./assets/script.js"></script>
 </body>
+
 </html>
